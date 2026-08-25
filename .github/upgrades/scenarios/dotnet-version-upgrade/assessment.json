@@ -1,0 +1,2276 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-08-07T12:13:27.2704165Z",
+  "analysisEndTime": "2026-08-07T12:13:31.3844161Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 8,
+      "incidents": 98,
+      "effort": 98
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 89,
+        "Optional": 0,
+        "Potential": 9,
+        "Information": 0
+      },
+      "category": {
+        "Project": 2,
+        "Api": 96
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "AsmSpyPlus\\AsmSpyPlus.csproj",
+      "startingProject": true,
+      "issues": 5,
+      "storyPoints": 98,
+      "properties": {
+        "appName": "AsmSpyPlus",
+        "projectKind": "ClassicWinForms",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 22,
+        "numberOfCodeFiles": 21,
+        "linesTotal": 1110,
+        "linesOfCode": 993,
+        "totalApiScanned": 692,
+        "minLinesOfCodeToChange": 96,
+        "maxLinesOfCodeToChange": 96
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "bb093e63-04b0-4456-a068-a4e1b68e6ade",
+          "ruleId": "Project.0001",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "AsmSpyPlus\\AsmSpyPlus.csproj"
+          }
+        },
+        {
+          "incidentId": "bf837977-670c-4837-a48b-03d82d27afa9",
+          "ruleId": "Project.0002",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\AsmSpyPlus.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0-windows",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net10.0-windows"
+            }
+          }
+        },
+        {
+          "incidentId": "7856cc4d-caf5-4042-9817-a548d2077ed1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "InternalTypeHelper",
+              "protected": "M:System.Windows.Markup.InternalTypeHelper.#ctor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\GeneratedInternalTypeHelper.g.cs",
+            "snippet": "InternalTypeHelper",
+            "protectedSnippet": "M:System.Windows.Markup.InternalTypeHelper.#ctor",
+            "label": "M:System.Windows.Markup.InternalTypeHelper.#ctor",
+            "line": 19,
+            "column": 76
+          }
+        },
+        {
+          "incidentId": "c596d436-8a8a-4fb9-9d67-9f8bec3672d7",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "InternalTypeHelper",
+              "protected": "T:System.Windows.Markup.InternalTypeHelper"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\GeneratedInternalTypeHelper.g.cs",
+            "snippet": "InternalTypeHelper",
+            "protectedSnippet": "T:System.Windows.Markup.InternalTypeHelper",
+            "label": "T:System.Windows.Markup.InternalTypeHelper",
+            "line": 19,
+            "column": 76
+          }
+        },
+        {
+          "incidentId": "f2ce1038-a94e-4ff0-a5ad-8d92fef72a25",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void DataGridOnAutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)",
+              "protected": "T:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "private static void DataGridOnAutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)",
+            "protectedSnippet": "T:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs",
+            "label": "T:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs",
+            "line": 41,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "0dc31faa-5e3c-421b-a489-91e6d555f262",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "e.Cancel = true;",
+              "protected": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.Cancel"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "e.Cancel = true;",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.Cancel",
+            "label": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.Cancel",
+            "line": 54,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "ed0280f9-6599-4237-9225-c7d6aeea7ec5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var propDesc = e.PropertyDescriptor as PropertyDescriptor;",
+              "protected": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.PropertyDescriptor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "var propDesc = e.PropertyDescriptor as PropertyDescriptor;",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.PropertyDescriptor",
+            "label": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.PropertyDescriptor",
+            "line": 43,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "aabec863-a361-4ac0-a070-a501765665d2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void UseBrowsableAttributeOnColumnChanged(DependencyObject obj, DependencyPropertyChangedEventArgs e)",
+              "protected": "T:System.Windows.DependencyPropertyChangedEventArgs"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "private static void UseBrowsableAttributeOnColumnChanged(DependencyObject obj, DependencyPropertyChangedEventArgs e)",
+            "protectedSnippet": "T:System.Windows.DependencyPropertyChangedEventArgs",
+            "label": "T:System.Windows.DependencyPropertyChangedEventArgs",
+            "line": 25,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "23123177-2b87-46b3-80e7-82beffd74908",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void UseBrowsableAttributeOnColumnChanged(DependencyObject obj, DependencyPropertyChangedEventArgs e)",
+              "protected": "T:System.Windows.DependencyObject"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "private static void UseBrowsableAttributeOnColumnChanged(DependencyObject obj, DependencyPropertyChangedEventArgs e)",
+            "protectedSnippet": "T:System.Windows.DependencyObject",
+            "label": "T:System.Windows.DependencyObject",
+            "line": 25,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "5e02a4d0-e97c-4fef-bc98-3fbab5ea783a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "dataGrid.AutoGeneratingColumn -= DataGridOnAutoGeneratingColumn;",
+              "protected": "E:System.Windows.Controls.DataGrid.AutoGeneratingColumn"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "dataGrid.AutoGeneratingColumn -= DataGridOnAutoGeneratingColumn;",
+            "protectedSnippet": "E:System.Windows.Controls.DataGrid.AutoGeneratingColumn",
+            "label": "E:System.Windows.Controls.DataGrid.AutoGeneratingColumn",
+            "line": 36,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "28472e00-16a5-413f-bacb-bc3b58b5faa5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "dataGrid.AutoGeneratingColumn \u002B= DataGridOnAutoGeneratingColumn;",
+              "protected": "E:System.Windows.Controls.DataGrid.AutoGeneratingColumn"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "dataGrid.AutoGeneratingColumn \u002B= DataGridOnAutoGeneratingColumn;",
+            "protectedSnippet": "E:System.Windows.Controls.DataGrid.AutoGeneratingColumn",
+            "label": "E:System.Windows.Controls.DataGrid.AutoGeneratingColumn",
+            "line": 32,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "6f356e70-0a7d-409b-8043-818ddfd89aa2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if ((bool) e.NewValue)\r\n\t\t\t\t{\r\n\t\t\t\t\tdataGrid.AutoGeneratingColumn \u002B= DataGridOnAutoGeneratingColumn;\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\tdataGrid.AutoGeneratingColumn -= DataGridOnAutoGeneratingColumn;\r\n\t\t\t\t}",
+              "protected": "P:System.Windows.DependencyPropertyChangedEventArgs.NewValue"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "if ((bool) e.NewValue)\r\n\t\t\t\t{\r\n\t\t\t\t\tdataGrid.AutoGeneratingColumn \u002B= DataGridOnAutoGeneratingColumn;\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\tdataGrid.AutoGeneratingColumn -= DataGridOnAutoGeneratingColumn;\r\n\t\t\t\t}",
+            "protectedSnippet": "P:System.Windows.DependencyPropertyChangedEventArgs.NewValue",
+            "label": "P:System.Windows.DependencyPropertyChangedEventArgs.NewValue",
+            "line": 30,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "1f269dc0-45bf-48a3-9f64-5a7f362f8baa",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static void SetUseBrowsableAttributeOnColumn(DependencyObject obj, bool val)",
+              "protected": "T:System.Windows.DependencyObject"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "public static void SetUseBrowsableAttributeOnColumn(DependencyObject obj, bool val)",
+            "protectedSnippet": "T:System.Windows.DependencyObject",
+            "label": "T:System.Windows.DependencyObject",
+            "line": 20,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "cf37f697-030c-4be5-b581-f922506af67d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "obj.SetValue(UseBrowsableAttributeOnColumnProperty, val);",
+              "protected": "T:System.Windows.DependencyProperty"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "obj.SetValue(UseBrowsableAttributeOnColumnProperty, val);",
+            "protectedSnippet": "T:System.Windows.DependencyProperty",
+            "label": "T:System.Windows.DependencyProperty",
+            "line": 22,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "3cb568a3-7412-488d-a2dd-d6ae605e857b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "obj.SetValue(UseBrowsableAttributeOnColumnProperty, val);",
+              "protected": "M:System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "obj.SetValue(UseBrowsableAttributeOnColumnProperty, val);",
+            "protectedSnippet": "M:System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)",
+            "label": "M:System.Windows.DependencyObject.SetValue(System.Windows.DependencyProperty,System.Object)",
+            "line": 22,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "c9c7387b-a3c9-4ffb-a715-7e0ec81db413",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static bool GetUseBrowsableAttributeOnColumn(DependencyObject obj)",
+              "protected": "T:System.Windows.DependencyObject"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "public static bool GetUseBrowsableAttributeOnColumn(DependencyObject obj)",
+            "protectedSnippet": "T:System.Windows.DependencyObject",
+            "label": "T:System.Windows.DependencyObject",
+            "line": 15,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "efc51e1b-85d1-4a75-802d-dfd20118b4e1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return (bool)obj.GetValue(UseBrowsableAttributeOnColumnProperty);",
+              "protected": "T:System.Windows.DependencyProperty"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "return (bool)obj.GetValue(UseBrowsableAttributeOnColumnProperty);",
+            "protectedSnippet": "T:System.Windows.DependencyProperty",
+            "label": "T:System.Windows.DependencyProperty",
+            "line": 17,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "73630b66-4efa-4080-86f7-60536585c5b4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return (bool)obj.GetValue(UseBrowsableAttributeOnColumnProperty);",
+              "protected": "M:System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "return (bool)obj.GetValue(UseBrowsableAttributeOnColumnProperty);",
+            "protectedSnippet": "M:System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)",
+            "label": "M:System.Windows.DependencyObject.GetValue(System.Windows.DependencyProperty)",
+            "line": 17,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "0670cb7d-816e-42cf-991d-3109e2fe4911",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "UseBrowsableAttributeOnColumnProperty =\r\n\t\t\tDependencyProperty.RegisterAttached(\u0022UseBrowsableAttributeOnColumn\u0022, \r\n\t\t\ttypeof(bool),\r\n\t\t\ttypeof(DataGridBehavior), \r\n\t\t\tnew UIPropertyMetadata(false, UseBrowsableAttributeOnColumnChanged))",
+              "protected": "T:System.Windows.DependencyProperty"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Behavior\\DataGridBehavior.cs",
+            "snippet": "UseBrowsableAttributeOnColumnProperty =\r\n\t\t\tDependencyProperty.RegisterAttached(\u0022UseBrowsableAttributeOnColumn\u0022, \r\n\t\t\ttypeof(bool),\r\n\t\t\ttypeof(DataGridBehavior), \r\n\t\t\tnew UIPropertyMetadata(false, UseBrowsableAttributeOnColumnChanged))",
+            "protectedSnippet": "T:System.Windows.DependencyProperty",
+            "label": "T:System.Windows.DependencyProperty",
+            "line": 9,
+            "column": 44
+          }
+        },
+        {
+          "incidentId": "1f6594e0-39ad-4a76-b537-4b32337bf738",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "IValueConverter",
+              "protected": "T:System.Windows.Data.IValueConverter"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Converter\\AssemblyListToConcatenatedAssemblyNames.cs",
+            "snippet": "IValueConverter",
+            "protectedSnippet": "T:System.Windows.Data.IValueConverter",
+            "label": "T:System.Windows.Data.IValueConverter",
+            "line": 10,
+            "column": 56
+          }
+        },
+        {
+          "incidentId": "8a17e06c-e07e-4531-b40d-95c8b214f876",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "IValueConverter",
+              "protected": "T:System.Windows.Data.IValueConverter"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Converter\\AssemblyToAssemblyNameConverter.cs",
+            "snippet": "IValueConverter",
+            "protectedSnippet": "T:System.Windows.Data.IValueConverter",
+            "label": "T:System.Windows.Data.IValueConverter",
+            "line": 10,
+            "column": 40
+          }
+        },
+        {
+          "incidentId": "c4bb68ab-ebc4-4b75-be1e-992555268935",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "ApplicationSettingsBase",
+              "protected": "M:System.Configuration.ApplicationSettingsBase.#ctor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Properties\\Settings.Designer.cs",
+            "snippet": "ApplicationSettingsBase",
+            "protectedSnippet": "M:System.Configuration.ApplicationSettingsBase.#ctor",
+            "label": "M:System.Configuration.ApplicationSettingsBase.#ctor",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 15,
+            "column": 74
+          }
+        },
+        {
+          "incidentId": "06f767cd-ec64-4861-8253-7dc2d33fcd6d",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "ApplicationSettingsBase",
+              "protected": "T:System.Configuration.ApplicationSettingsBase"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\Properties\\Settings.Designer.cs",
+            "snippet": "ApplicationSettingsBase",
+            "protectedSnippet": "T:System.Configuration.ApplicationSettingsBase",
+            "label": "T:System.Configuration.ApplicationSettingsBase",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 15,
+            "column": 74
+          }
+        },
+        {
+          "incidentId": "116c4e8b-a749-4b76-b46d-ac9bba630911",
+          "ruleId": "Api.0002",
+          "description": "AssemblyName members HashAlgorithm, ProcessorArchitecture, and VersionCompatibility are obsolete and not supported. ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "object o1 = assemblyName.ProcessorArchitecture;",
+              "protected": "P:System.Reflection.AssemblyName.ProcessorArchitecture"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\AssemblyInfo\\AssemblyAnalysis.cs",
+            "snippet": "object o1 = assemblyName.ProcessorArchitecture;",
+            "protectedSnippet": "P:System.Reflection.AssemblyName.ProcessorArchitecture",
+            "label": "P:System.Reflection.AssemblyName.ProcessorArchitecture",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://aka.ms/dotnet-warnings/SYSLIB0037",
+                "isCustom": false
+              }
+            ],
+            "line": 166,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "08b0331d-c2ca-4004-a47f-37a31b697347",
+          "ruleId": "Api.0002",
+          "description": "ReflectionOnly loading is not supported and throws PlatformNotSupportedException. ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "assembly = Assembly.ReflectionOnlyLoadFrom(fileInfo.FullName);",
+              "protected": "M:System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\AssemblyInfo\\AssemblyAnalysis.cs",
+            "snippet": "assembly = Assembly.ReflectionOnlyLoadFrom(fileInfo.FullName);",
+            "protectedSnippet": "M:System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)",
+            "label": "M:System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://aka.ms/dotnet-warnings/SYSLIB0018",
+                "isCustom": false
+              }
+            ],
+            "line": 67,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "7126307c-ef5b-4471-a01c-d3ef62c32719",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "app.Run();",
+              "protected": "M:System.Windows.Application.Run"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "app.Run();",
+            "protectedSnippet": "M:System.Windows.Application.Run",
+            "label": "M:System.Windows.Application.Run",
+            "line": 64,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "35277104-95fa-4ae0-8af5-a4ac2ee6280a",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+              "protected": "T:System.Uri"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+            "protectedSnippet": "T:System.Uri",
+            "label": "T:System.Uri",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 49,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e0158dd9-33bb-495c-b1c0-29fe37ffe4d0",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+              "protected": "M:System.Uri.#ctor(System.String,System.UriKind)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+            "protectedSnippet": "M:System.Uri.#ctor(System.String,System.UriKind)",
+            "label": "M:System.Uri.#ctor(System.String,System.UriKind)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 49,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "3bf67d1f-0411-4e5e-b77e-07cc7b34b3c0",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+              "protected": "T:System.Uri"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+            "protectedSnippet": "T:System.Uri",
+            "label": "T:System.Uri",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 49,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "46154193-f52a-40e9-8c7d-e995d65c8c9f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+              "protected": "P:System.Windows.Application.StartupUri"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "this.StartupUri = new System.Uri(\u0022MainWindow.xaml\u0022, System.UriKind.Relative);",
+            "protectedSnippet": "P:System.Windows.Application.StartupUri",
+            "label": "P:System.Windows.Application.StartupUri",
+            "line": 49,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "18106538-28ca-442d-bd47-0a2e264288a5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Application",
+              "protected": "M:System.Windows.Application.#ctor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "Application",
+            "protectedSnippet": "M:System.Windows.Application.#ctor",
+            "label": "M:System.Windows.Application.#ctor",
+            "line": 39,
+            "column": 46
+          }
+        },
+        {
+          "incidentId": "e00306bb-1ae5-4402-9ddb-d8553403e31c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Application",
+              "protected": "T:System.Windows.Application"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\App.g.cs",
+            "snippet": "Application",
+            "protectedSnippet": "T:System.Windows.Application",
+            "label": "T:System.Windows.Application",
+            "line": 39,
+            "column": 46
+          }
+        },
+        {
+          "incidentId": "18c98303-4a14-463d-97f2-09b248c8f205",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.AssembliesDetails = ((System.Windows.Controls.DataGrid)(target));",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.AssembliesDetails = ((System.Windows.Controls.DataGrid)(target));",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 129,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "0cd06d98-a299-4285-8f28-cddeece17c63",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.Duplicate = ((System.Windows.Controls.DataGrid)(target));",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.Duplicate = ((System.Windows.Controls.DataGrid)(target));",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 126,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "8a0be695-d8ea-4b36-bb84-e927a9ec37cc",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.DataGridAssemblies = ((System.Windows.Controls.DataGrid)(target));",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.DataGridAssemblies = ((System.Windows.Controls.DataGrid)(target));",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 123,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "3472d3a8-c3ac-4a33-b146-f643f1559a41",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+              "protected": "T:System.Windows.Controls.Button"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+            "protectedSnippet": "T:System.Windows.Controls.Button",
+            "label": "T:System.Windows.Controls.Button",
+            "line": 117,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "a0c2f0bb-ec9b-4df6-b8dd-8e966dd097c7",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+              "protected": "T:System.Windows.RoutedEventHandler"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+            "protectedSnippet": "T:System.Windows.RoutedEventHandler",
+            "label": "T:System.Windows.RoutedEventHandler",
+            "line": 117,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "9547836c-3a04-4a0a-9e50-e8644e245364",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+              "protected": "T:System.Windows.RoutedEventHandler"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+            "protectedSnippet": "T:System.Windows.RoutedEventHandler",
+            "label": "T:System.Windows.RoutedEventHandler",
+            "line": 117,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "07733373-5844-4192-86e8-5934123d2984",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+              "protected": "E:System.Windows.Controls.Primitives.ButtonBase.Click"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.CmdBrowse.Click \u002B= new System.Windows.RoutedEventHandler(this.CmdBrowse_Click);",
+            "protectedSnippet": "E:System.Windows.Controls.Primitives.ButtonBase.Click",
+            "label": "E:System.Windows.Controls.Primitives.ButtonBase.Click",
+            "line": 117,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e9eed209-638a-45dd-b313-fbe41ed9d052",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.CmdBrowse = ((System.Windows.Controls.Button)(target));",
+              "protected": "T:System.Windows.Controls.Button"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "this.CmdBrowse = ((System.Windows.Controls.Button)(target));",
+            "protectedSnippet": "T:System.Windows.Controls.Button",
+            "label": "T:System.Windows.Controls.Button",
+            "line": 114,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "7025de33-c4a8-4594-85a4-c16d2f23c097",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Windows.Application.LoadComponent(this, resourceLocater);",
+              "protected": "T:System.Windows.Application"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "System.Windows.Application.LoadComponent(this, resourceLocater);",
+            "protectedSnippet": "T:System.Windows.Application",
+            "label": "T:System.Windows.Application",
+            "line": 91,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "00830397-6f4a-409a-93d2-e198624dce14",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Windows.Application.LoadComponent(this, resourceLocater);",
+              "protected": "M:System.Windows.Application.LoadComponent(System.Object,System.Uri)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "System.Windows.Application.LoadComponent(this, resourceLocater);",
+            "protectedSnippet": "M:System.Windows.Application.LoadComponent(System.Object,System.Uri)",
+            "label": "M:System.Windows.Application.LoadComponent(System.Object,System.Uri)",
+            "line": 91,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "53831e29-a06d-4b38-931b-fc8ac656f933",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Uri resourceLocater = new System.Uri(\u0022/AsmSpyPlus;component/mainwindow.xaml\u0022, System.UriKind.Relative);",
+              "protected": "T:System.Uri"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "System.Uri resourceLocater = new System.Uri(\u0022/AsmSpyPlus;component/mainwindow.xaml\u0022, System.UriKind.Relative);",
+            "protectedSnippet": "T:System.Uri",
+            "label": "T:System.Uri",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 88,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "b28d2b91-965d-442e-aa3d-57f94efd85d4",
+          "ruleId": "Api.0003",
+          "description": "Breaking change: URI length limits removed ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Uri resourceLocater = new System.Uri(\u0022/AsmSpyPlus;component/mainwindow.xaml\u0022, System.UriKind.Relative);",
+              "protected": "M:System.Uri.#ctor(System.String,System.UriKind)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "System.Uri resourceLocater = new System.Uri(\u0022/AsmSpyPlus;component/mainwindow.xaml\u0022, System.UriKind.Relative);",
+            "protectedSnippet": "M:System.Uri.#ctor(System.String,System.UriKind)",
+            "label": "M:System.Uri.#ctor(System.String,System.UriKind)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/uri-length-limits-removed.md",
+                "isCustom": false
+              }
+            ],
+            "line": 88,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "338e0d4c-8bbf-4d94-bf5f-43209063af9a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AssembliesDetails",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "AssembliesDetails",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 71,
+            "column": 50
+          }
+        },
+        {
+          "incidentId": "f8a23e5b-ca10-47ba-9c57-5c760183454f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Duplicate",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "Duplicate",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 63,
+            "column": 50
+          }
+        },
+        {
+          "incidentId": "bdb2ae4d-04c0-4916-b91c-afc066b60a52",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "DataGridAssemblies",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 55,
+            "column": 50
+          }
+        },
+        {
+          "incidentId": "c0e76ef4-141c-46d4-ace5-5974c7c0aa78",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "CmdBrowse",
+              "protected": "T:System.Windows.Controls.Button"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "CmdBrowse",
+            "protectedSnippet": "T:System.Windows.Controls.Button",
+            "label": "T:System.Windows.Controls.Button",
+            "line": 47,
+            "column": 48
+          }
+        },
+        {
+          "incidentId": "2dca0927-23cc-4cf5-9268-1e00d12df74a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private void AssembliesDetailsOnAutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)",
+              "protected": "T:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "private void AssembliesDetailsOnAutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)",
+            "protectedSnippet": "T:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs",
+            "label": "T:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs",
+            "line": 125,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "71bb7970-9ba5-4b38-a857-ed3cd4b2b166",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "e.Cancel = true;",
+              "protected": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.Cancel"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "e.Cancel = true;",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.Cancel",
+            "label": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.Cancel",
+            "line": 138,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "20ac87cc-9841-4959-8870-63c2fc44abf0",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var propDesc = e.PropertyDescriptor as PropertyDescriptor;",
+              "protected": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.PropertyDescriptor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "var propDesc = e.PropertyDescriptor as PropertyDescriptor;",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.PropertyDescriptor",
+            "label": "P:System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs.PropertyDescriptor",
+            "line": 127,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "46626006-8130-4c90-b81a-4ebd6df5b1d9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_mainWindowModel = DataContext as MainWindowModel;",
+              "protected": "P:System.Windows.FrameworkElement.DataContext"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "_mainWindowModel = DataContext as MainWindowModel;",
+            "protectedSnippet": "P:System.Windows.FrameworkElement.DataContext",
+            "label": "P:System.Windows.FrameworkElement.DataContext",
+            "line": 118,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "56d4fef0-dc0d-46ca-91ce-f7bc7128ed62",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private void CmdBrowse_Click(object sender, RoutedEventArgs e)",
+              "protected": "T:System.Windows.RoutedEventArgs"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "private void CmdBrowse_Click(object sender, RoutedEventArgs e)",
+            "protectedSnippet": "T:System.Windows.RoutedEventArgs",
+            "label": "T:System.Windows.RoutedEventArgs",
+            "line": 55,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "7b68362b-13f6-43b3-bad3-f261f8ca836b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Arrow;",
+              "protected": "T:System.Windows.Input.Cursors"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Arrow;",
+            "protectedSnippet": "T:System.Windows.Input.Cursors",
+            "label": "T:System.Windows.Input.Cursors",
+            "line": 108,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "e67f44a5-815d-4cfe-b83c-2e85afa33522",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Arrow;",
+              "protected": "T:System.Windows.Input.Cursor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Arrow;",
+            "protectedSnippet": "T:System.Windows.Input.Cursor",
+            "label": "T:System.Windows.Input.Cursor",
+            "line": 108,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "ffe9da9d-6bff-497f-a618-cffe225d6621",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Arrow;",
+              "protected": "P:System.Windows.Input.Cursors.Arrow"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Arrow;",
+            "protectedSnippet": "P:System.Windows.Input.Cursors.Arrow",
+            "label": "P:System.Windows.Input.Cursors.Arrow",
+            "line": 108,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "cd6e15c1-df99-4e90-9061-16edf0b1ff20",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Arrow;",
+              "protected": "T:System.Windows.Input.Mouse"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Arrow;",
+            "protectedSnippet": "T:System.Windows.Input.Mouse",
+            "label": "T:System.Windows.Input.Mouse",
+            "line": 108,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "c476908f-7ac7-4978-8123-6093c9576d53",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Arrow;",
+              "protected": "T:System.Windows.Input.Cursor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Arrow;",
+            "protectedSnippet": "T:System.Windows.Input.Cursor",
+            "label": "T:System.Windows.Input.Cursor",
+            "line": 108,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "c420b9cc-cfe7-4019-b5a1-51e28e294152",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Arrow;",
+              "protected": "P:System.Windows.Input.Mouse.OverrideCursor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Arrow;",
+            "protectedSnippet": "P:System.Windows.Input.Mouse.OverrideCursor",
+            "label": "P:System.Windows.Input.Mouse.OverrideCursor",
+            "line": 108,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "17841eb6-bbd9-4b47-a489-b56aba1047fc",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "P:System.Windows.Controls.DataGridColumn.SortMemberPath"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridColumn.SortMemberPath",
+            "label": "P:System.Windows.Controls.DataGridColumn.SortMemberPath",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "6d51ffe3-6e92-4b74-a07e-1ac314073c99",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "T:System.ComponentModel.SortDescription"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "T:System.ComponentModel.SortDescription",
+            "label": "T:System.ComponentModel.SortDescription",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "335a0445-4dff-4bfe-a8f0-937e575c865d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "M:System.ComponentModel.SortDescription.#ctor(System.String,System.ComponentModel.ListSortDirection)"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "M:System.ComponentModel.SortDescription.#ctor(System.String,System.ComponentModel.ListSortDirection)",
+            "label": "M:System.ComponentModel.SortDescription.#ctor(System.String,System.ComponentModel.ListSortDirection)",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "b4e6528f-13b5-421d-bcf1-ed5ffd609573",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "4eb3bb02-7f4d-4eee-ac54-0d48052c5de9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "T:System.Windows.Controls.ItemCollection"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "T:System.Windows.Controls.ItemCollection",
+            "label": "T:System.Windows.Controls.ItemCollection",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "957e5154-f688-4342-a401-27291af214e5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "P:System.Windows.Controls.ItemsControl.Items"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "P:System.Windows.Controls.ItemsControl.Items",
+            "label": "P:System.Windows.Controls.ItemsControl.Items",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "87bea6ba-3f51-4231-994a-ad68edfff202",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "T:System.ComponentModel.SortDescriptionCollection"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "T:System.ComponentModel.SortDescriptionCollection",
+            "label": "T:System.ComponentModel.SortDescriptionCollection",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "b69da08c-8073-4f67-a0db-c787a28f668e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+              "protected": "P:System.Windows.Controls.ItemCollection.SortDescriptions"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "DataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));",
+            "protectedSnippet": "P:System.Windows.Controls.ItemCollection.SortDescriptions",
+            "label": "P:System.Windows.Controls.ItemCollection.SortDescriptions",
+            "line": 103,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "f26bf3d3-9b7d-4b18-9df7-6750d70bb58c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "T:System.Windows.Threading.DispatcherPriority"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "T:System.Windows.Threading.DispatcherPriority",
+            "label": "T:System.Windows.Threading.DispatcherPriority",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "e9c9c821-90a8-4e84-bfd0-9b44a11be38f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "T:System.Windows.Threading.DispatcherPriority"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "T:System.Windows.Threading.DispatcherPriority",
+            "label": "T:System.Windows.Threading.DispatcherPriority",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "492db107-b18d-4328-9f96-ccc3f3a0883b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "F:System.Windows.Threading.DispatcherPriority.ContextIdle"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "F:System.Windows.Threading.DispatcherPriority.ContextIdle",
+            "label": "F:System.Windows.Threading.DispatcherPriority.ContextIdle",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "9fabd192-1d87-46fe-9a6b-ccb26c5058b1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "P:System.Windows.Controls.DataGridColumn.SortDirection"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridColumn.SortDirection",
+            "label": "P:System.Windows.Controls.DataGridColumn.SortDirection",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "1e8fcdfd-2c66-431a-94cb-2311d2831985",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "T:System.Windows.Threading.Dispatcher"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "T:System.Windows.Threading.Dispatcher",
+            "label": "T:System.Windows.Threading.Dispatcher",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "c815ef47-b72b-4b5f-a618-df9cc9fc9f54",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "P:System.Windows.Threading.DispatcherObject.Dispatcher"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "P:System.Windows.Threading.DispatcherObject.Dispatcher",
+            "label": "P:System.Windows.Threading.DispatcherObject.Dispatcher",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "06a9c1a4-0166-4562-82ad-468a91fd99cd",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "T:System.Windows.Threading.DispatcherOperation"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "T:System.Windows.Threading.DispatcherOperation",
+            "label": "T:System.Windows.Threading.DispatcherOperation",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "8fce9912-5c63-46d2-bc61-b7d84eec8e6c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+              "protected": "M:System.Windows.Threading.Dispatcher.BeginInvoke(System.Delegate,System.Windows.Threading.DispatcherPriority,System.Object[])"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Dispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);",
+            "protectedSnippet": "M:System.Windows.Threading.Dispatcher.BeginInvoke(System.Delegate,System.Windows.Threading.DispatcherPriority,System.Object[])",
+            "label": "M:System.Windows.Threading.Dispatcher.BeginInvoke(System.Delegate,System.Windows.Threading.DispatcherPriority,System.Object[])",
+            "line": 101,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "8ebaa878-3db5-4fe1-a53b-5e62af4a0c3f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}",
+              "protected": "P:System.Windows.Controls.DataGridColumn.Header"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "if (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}",
+            "protectedSnippet": "P:System.Windows.Controls.DataGridColumn.Header",
+            "label": "P:System.Windows.Controls.DataGridColumn.Header",
+            "line": 98,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "0fa36e70-d2bc-4d5d-8259-812532755069",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "foreach (DataGridColumn col in DataGridAssemblies.Columns)\r\n\t\t\t\t{\r\n\t\t\t\t\tif (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "foreach (DataGridColumn col in DataGridAssemblies.Columns)\r\n\t\t\t\t{\r\n\t\t\t\t\tif (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 96,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "bbf6d95c-7504-4845-bc0b-6ded106521dd",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "foreach (DataGridColumn col in DataGridAssemblies.Columns)\r\n\t\t\t\t{\r\n\t\t\t\t\tif (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}",
+              "protected": "P:System.Windows.Controls.DataGrid.Columns"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "foreach (DataGridColumn col in DataGridAssemblies.Columns)\r\n\t\t\t\t{\r\n\t\t\t\t\tif (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}",
+            "protectedSnippet": "P:System.Windows.Controls.DataGrid.Columns",
+            "label": "P:System.Windows.Controls.DataGrid.Columns",
+            "line": 96,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "ba400b48-0d27-4d86-a114-2d79a6d066f6",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "File.WriteAllText(appDataConfigFilename, folderBrowser.SelectedPath);",
+              "protected": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "File.WriteAllText(appDataConfigFilename, folderBrowser.SelectedPath);",
+            "protectedSnippet": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "label": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "line": 94,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "336c3d4d-15f4-44fd-875c-d2f899f86843",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AssemblyAnalysis aa = AssemblyAnalysis.AnalyseFolder(folderBrowser.SelectedPath);",
+              "protected": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "AssemblyAnalysis aa = AssemblyAnalysis.AnalyseFolder(folderBrowser.SelectedPath);",
+            "protectedSnippet": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "label": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "line": 72,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "8320d1cd-8f38-4772-972b-311ec162ec93",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Wait;",
+              "protected": "T:System.Windows.Input.Cursors"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Wait;",
+            "protectedSnippet": "T:System.Windows.Input.Cursors",
+            "label": "T:System.Windows.Input.Cursors",
+            "line": 70,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "f4dfc4c9-c878-435e-8f62-5d26dce18d5f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Wait;",
+              "protected": "T:System.Windows.Input.Cursor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Wait;",
+            "protectedSnippet": "T:System.Windows.Input.Cursor",
+            "label": "T:System.Windows.Input.Cursor",
+            "line": 70,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "ef7bc8aa-ed94-4dd4-ae7e-f6dbf74239b4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Wait;",
+              "protected": "P:System.Windows.Input.Cursors.Wait"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Wait;",
+            "protectedSnippet": "P:System.Windows.Input.Cursors.Wait",
+            "label": "P:System.Windows.Input.Cursors.Wait",
+            "line": 70,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "f796d8a4-40dc-47e6-bf7b-f6bd62087e01",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Wait;",
+              "protected": "T:System.Windows.Input.Mouse"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Wait;",
+            "protectedSnippet": "T:System.Windows.Input.Mouse",
+            "label": "T:System.Windows.Input.Mouse",
+            "line": 70,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "087f28ca-763f-4f55-a741-cb261548993f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Wait;",
+              "protected": "T:System.Windows.Input.Cursor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Wait;",
+            "protectedSnippet": "T:System.Windows.Input.Cursor",
+            "label": "T:System.Windows.Input.Cursor",
+            "line": 70,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "fe748379-1052-4f36-b09b-e49c348674ff",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mouse.OverrideCursor = Cursors.Wait;",
+              "protected": "P:System.Windows.Input.Mouse.OverrideCursor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Mouse.OverrideCursor = Cursors.Wait;",
+            "protectedSnippet": "P:System.Windows.Input.Mouse.OverrideCursor",
+            "label": "P:System.Windows.Input.Mouse.OverrideCursor",
+            "line": 70,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "6c45b8d8-bc7f-4ed0-916f-2b6577e532da",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (Directory.Exists(folderBrowser.SelectedPath))\r\n\t\t\t{\r\n\t\t\t\tMouse.OverrideCursor = Cursors.Wait;\r\n\r\n\t\t\t\tAssemblyAnalysis aa = AssemblyAnalysis.AnalyseFolder(folderBrowser.SelectedPath);\r\n\t\t\t\tModel.AssemblyAnalysis = aa;\r\n\r\n\t\t\t\tHashSet\u003Cstring\u003E duplicateAssemblies = new HashSet\u003Cstring\u003E();\r\n\t\t\t\tforeach (ReferencedAssembly refAsmIter in aa.ReferencedAssemblies)\r\n\t\t\t\t{\r\n\r\n\t\t\t\t\tforeach (ReferencedAssembly refAsmInner in aa.ReferencedAssemblies)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tif (refAsmIter.AssemblyName.Name == refAsmInner.AssemblyName.Name)\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tif (!refAsmIter.AssemblyName.Version.Equals(refAsmInner.AssemblyName.Version))\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\tduplicateAssemblies.Add(refAsmIter.AssemblyName.Name);\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\r\n\t\t\t\tModel.DuplicateAssemblies = duplicateAssemblies.ToList();\r\n\r\n\t\t\t\tDirectory.CreateDirectory(appDataConfigDirectory);\r\n\t\t\t\tFile.WriteAllText(appDataConfigFilename, folderBrowser.SelectedPath);\r\n\r\n\t\t\t\tforeach (DataGridColumn col in DataGridAssemblies.Columns)\r\n\t\t\t\t{\r\n\t\t\t\t\tif (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}\r\n\r\n\t\t\t\tMouse.OverrideCursor = Cursors.Arrow;\r\n\t\t\t}",
+              "protected": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "if (Directory.Exists(folderBrowser.SelectedPath))\r\n\t\t\t{\r\n\t\t\t\tMouse.OverrideCursor = Cursors.Wait;\r\n\r\n\t\t\t\tAssemblyAnalysis aa = AssemblyAnalysis.AnalyseFolder(folderBrowser.SelectedPath);\r\n\t\t\t\tModel.AssemblyAnalysis = aa;\r\n\r\n\t\t\t\tHashSet\u003Cstring\u003E duplicateAssemblies = new HashSet\u003Cstring\u003E();\r\n\t\t\t\tforeach (ReferencedAssembly refAsmIter in aa.ReferencedAssemblies)\r\n\t\t\t\t{\r\n\r\n\t\t\t\t\tforeach (ReferencedAssembly refAsmInner in aa.ReferencedAssemblies)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tif (refAsmIter.AssemblyName.Name == refAsmInner.AssemblyName.Name)\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tif (!refAsmIter.AssemblyName.Version.Equals(refAsmInner.AssemblyName.Version))\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\tduplicateAssemblies.Add(refAsmIter.AssemblyName.Name);\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\r\n\t\t\t\tModel.DuplicateAssemblies = duplicateAssemblies.ToList();\r\n\r\n\t\t\t\tDirectory.CreateDirectory(appDataConfigDirectory);\r\n\t\t\t\tFile.WriteAllText(appDataConfigFilename, folderBrowser.SelectedPath);\r\n\r\n\t\t\t\tforeach (DataGridColumn col in DataGridAssemblies.Columns)\r\n\t\t\t\t{\r\n\t\t\t\t\tif (col.Header.ToString() == \u0022Assembly FullName\u0022)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tDataGridColumn colLocal = col;\r\n\t\t\t\t\t\tDispatcher.BeginInvoke(new Action(() =\u003E colLocal.SortDirection = ListSortDirection.Ascending), DispatcherPriority.ContextIdle);\r\n\r\n\t\t\t\t\t\tDataGridAssemblies.Items.SortDescriptions.Add(new SortDescription(col.SortMemberPath, ListSortDirection.Ascending));\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}\r\n\r\n\t\t\t\tMouse.OverrideCursor = Cursors.Arrow;\r\n\t\t\t}",
+            "protectedSnippet": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "label": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "line": 68,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "f82e0325-0b8c-41bb-a086-a465153471c5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "folderBrowser.ShowDialog();",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "folderBrowser.ShowDialog();",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "line": 67,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "b3906a22-e4c0-45de-a1f4-233ae475142d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "folderBrowser.ShowDialog();",
+              "protected": "M:System.Windows.Forms.CommonDialog.ShowDialog"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "folderBrowser.ShowDialog();",
+            "protectedSnippet": "M:System.Windows.Forms.CommonDialog.ShowDialog",
+            "label": "M:System.Windows.Forms.CommonDialog.ShowDialog",
+            "line": 67,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "f6203707-b8c5-4f5a-b93a-45aa1e3c8b02",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "folderBrowser.SelectedPath = File.ReadAllText(appDataConfigFilename);",
+              "protected": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "folderBrowser.SelectedPath = File.ReadAllText(appDataConfigFilename);",
+            "protectedSnippet": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "label": "P:System.Windows.Forms.FolderBrowserDialog.SelectedPath",
+            "line": 64,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "276820c8-7ed8-4249-8186-74c0dda08656",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var folderBrowser = new System.Windows.Forms.FolderBrowserDialog();",
+              "protected": "T:System.Windows.Forms.FolderBrowserDialog"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "var folderBrowser = new System.Windows.Forms.FolderBrowserDialog();",
+            "protectedSnippet": "T:System.Windows.Forms.FolderBrowserDialog",
+            "label": "T:System.Windows.Forms.FolderBrowserDialog",
+            "line": 57,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "948d69f0-7327-4244-ab7c-d3e625078cf2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var folderBrowser = new System.Windows.Forms.FolderBrowserDialog();",
+              "protected": "M:System.Windows.Forms.FolderBrowserDialog.#ctor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "var folderBrowser = new System.Windows.Forms.FolderBrowserDialog();",
+            "protectedSnippet": "M:System.Windows.Forms.FolderBrowserDialog.#ctor",
+            "label": "M:System.Windows.Forms.FolderBrowserDialog.#ctor",
+            "line": 57,
+            "column": 3
+          }
+        },
+        {
+          "incidentId": "5724ec2b-2c70-48e9-9153-7ec93c5649d0",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var cvs = DataGridAssemblies.ItemsSource as CollectionViewSource;",
+              "protected": "T:System.Windows.Controls.DataGrid"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "var cvs = DataGridAssemblies.ItemsSource as CollectionViewSource;",
+            "protectedSnippet": "T:System.Windows.Controls.DataGrid",
+            "label": "T:System.Windows.Controls.DataGrid",
+            "line": 46,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "af59108e-c78b-48be-b0a2-85e72ef85821",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var cvs = DataGridAssemblies.ItemsSource as CollectionViewSource;",
+              "protected": "P:System.Windows.Controls.ItemsControl.ItemsSource"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "var cvs = DataGridAssemblies.ItemsSource as CollectionViewSource;",
+            "protectedSnippet": "P:System.Windows.Controls.ItemsControl.ItemsSource",
+            "label": "P:System.Windows.Controls.ItemsControl.ItemsSource",
+            "line": 46,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "4966fb81-7364-44f9-8de6-fe1072a2515b",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public MainWindow()\r\n\t\t{\r\n\t\t\tInitializeComponent();\r\n\t\t\tModel.PropertyChanged \u002B= ModelOnPropertyChanged;\r\n\t\t}",
+              "protected": "M:System.Windows.Window.#ctor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "public MainWindow()\r\n\t\t{\r\n\t\t\tInitializeComponent();\r\n\t\t\tModel.PropertyChanged \u002B= ModelOnPropertyChanged;\r\n\t\t}",
+            "protectedSnippet": "M:System.Windows.Window.#ctor",
+            "label": "M:System.Windows.Window.#ctor",
+            "line": 34,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "cb72ec32-c218-4f15-8d7d-d56609749498",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public MainWindow()\r\n\t\t{\r\n\t\t\tInitializeComponent();\r\n\t\t\tModel.PropertyChanged \u002B= ModelOnPropertyChanged;\r\n\t\t}",
+              "protected": "M:System.Windows.Window.#ctor"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "public MainWindow()\r\n\t\t{\r\n\t\t\tInitializeComponent();\r\n\t\t\tModel.PropertyChanged \u002B= ModelOnPropertyChanged;\r\n\t\t}",
+            "protectedSnippet": "M:System.Windows.Window.#ctor",
+            "label": "M:System.Windows.Window.#ctor",
+            "line": 34,
+            "column": 2
+          }
+        },
+        {
+          "incidentId": "5744853c-528f-4e5b-b7b5-11f6af7c36da",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "IComponentConnector",
+              "protected": "T:System.Windows.Markup.IComponentConnector"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\obj\\Debug\\MainWindow.g.cs",
+            "snippet": "IComponentConnector",
+            "protectedSnippet": "T:System.Windows.Markup.IComponentConnector",
+            "label": "T:System.Windows.Markup.IComponentConnector",
+            "line": 42,
+            "column": 83
+          }
+        },
+        {
+          "incidentId": "bd5f462c-1a05-42c8-80b2-1c5f0fb3af1f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "AsmSpyPlus\\AsmSpyPlus.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Window",
+              "protected": "T:System.Windows.Window"
+            },
+            "kind": "File",
+            "path": "AsmSpyPlus\\MainWindow.xaml.cs",
+            "snippet": "Window",
+            "protectedSnippet": "T:System.Windows.Window",
+            "label": "T:System.Windows.Window",
+            "line": 30,
+            "column": 35
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "LegacyConfiguration",
+          "incidents": [
+            "06f767cd-ec64-4861-8253-7dc2d33fcd6d",
+            "c4bb68ab-ebc4-4b75-be1e-992555268935"
+          ]
+        },
+        {
+          "featureId": "WinForms",
+          "incidents": [
+            "948d69f0-7327-4244-ab7c-d3e625078cf2",
+            "276820c8-7ed8-4249-8186-74c0dda08656",
+            "f6203707-b8c5-4f5a-b93a-45aa1e3c8b02",
+            "b3906a22-e4c0-45de-a1f4-233ae475142d",
+            "f82e0325-0b8c-41bb-a086-a465153471c5",
+            "6c45b8d8-bc7f-4ed0-916f-2b6577e532da",
+            "336c3d4d-15f4-44fd-875c-d2f899f86843",
+            "ba400b48-0d27-4d86-a114-2d79a6d066f6"
+          ]
+        },
+        {
+          "featureId": "Wpf",
+          "incidents": [
+            "5744853c-528f-4e5b-b7b5-11f6af7c36da",
+            "af59108e-c78b-48be-b0a2-85e72ef85821",
+            "5724ec2b-2c70-48e9-9153-7ec93c5649d0",
+            "fe748379-1052-4f36-b09b-e49c348674ff",
+            "087f28ca-763f-4f55-a741-cb261548993f",
+            "f796d8a4-40dc-47e6-bf7b-f6bd62087e01",
+            "ef7bc8aa-ed94-4dd4-ae7e-f6dbf74239b4",
+            "f4dfc4c9-c878-435e-8f62-5d26dce18d5f",
+            "8320d1cd-8f38-4772-972b-311ec162ec93",
+            "bbf6d95c-7504-4845-bc0b-6ded106521dd",
+            "0fa36e70-d2bc-4d5d-8259-812532755069",
+            "8ebaa878-3db5-4fe1-a53b-5e62af4a0c3f",
+            "8fce9912-5c63-46d2-bc61-b7d84eec8e6c",
+            "06a9c1a4-0166-4562-82ad-468a91fd99cd",
+            "c815ef47-b72b-4b5f-a618-df9cc9fc9f54",
+            "1e8fcdfd-2c66-431a-94cb-2311d2831985",
+            "9fabd192-1d87-46fe-9a6b-ccb26c5058b1",
+            "492db107-b18d-4328-9f96-ccc3f3a0883b",
+            "e9c9c821-90a8-4e84-bfd0-9b44a11be38f",
+            "f26bf3d3-9b7d-4b18-9df7-6750d70bb58c",
+            "b69da08c-8073-4f67-a0db-c787a28f668e",
+            "957e5154-f688-4342-a401-27291af214e5",
+            "4eb3bb02-7f4d-4eee-ac54-0d48052c5de9",
+            "b4e6528f-13b5-421d-bcf1-ed5ffd609573",
+            "17841eb6-bbd9-4b47-a489-b56aba1047fc",
+            "c420b9cc-cfe7-4019-b5a1-51e28e294152",
+            "c476908f-7ac7-4978-8123-6093c9576d53",
+            "cd6e15c1-df99-4e90-9061-16edf0b1ff20",
+            "ffe9da9d-6bff-497f-a618-cffe225d6621",
+            "e67f44a5-815d-4cfe-b83c-2e85afa33522",
+            "7b68362b-13f6-43b3-bad3-f261f8ca836b",
+            "20ac87cc-9841-4959-8870-63c2fc44abf0",
+            "71bb7970-9ba5-4b38-a857-ed3cd4b2b166",
+            "2dca0927-23cc-4cf5-9268-1e00d12df74a",
+            "c0e76ef4-141c-46d4-ace5-5974c7c0aa78",
+            "bdb2ae4d-04c0-4916-b91c-afc066b60a52",
+            "f8a23e5b-ca10-47ba-9c57-5c760183454f",
+            "338e0d4c-8bbf-4d94-bf5f-43209063af9a",
+            "e9eed209-638a-45dd-b313-fbe41ed9d052",
+            "07733373-5844-4192-86e8-5934123d2984",
+            "3472d3a8-c3ac-4a33-b146-f643f1559a41",
+            "8a0be695-d8ea-4b36-bb84-e927a9ec37cc",
+            "0cd06d98-a299-4285-8f28-cddeece17c63",
+            "18c98303-4a14-463d-97f2-09b248c8f205",
+            "8a17e06c-e07e-4531-b40d-95c8b214f876",
+            "1f6594e0-39ad-4a76-b537-4b32337bf738",
+            "28472e00-16a5-413f-bacb-bc3b58b5faa5",
+            "5e02a4d0-e97c-4fef-bc98-3fbab5ea783a",
+            "ed0280f9-6599-4237-9225-c7d6aeea7ec5",
+            "0dc31faa-5e3c-421b-a489-91e6d555f262",
+            "f2ce1038-a94e-4ff0-a5ad-8d92fef72a25",
+            "c596d436-8a8a-4fb9-9d67-9f8bec3672d7",
+            "7856cc4d-caf5-4042-9817-a548d2077ed1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "API is binary incompatible for selected .NET version: affects existing binaries, often requiring recompilation, because the API has changed in a way that prevents older binaries from loading or executing.",
+      "label": "Binary incompatible for selected .NET version",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "API is source incompatible for selected .NET version: requires code changes to compile successfully when targeting a new version, such as removing obsolete APIs or changing method signatures.",
+      "label": "Source incompatible for selected .NET version",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0003": {
+      "id": "Api.0003",
+      "isFeature": false,
+      "description": "API has a behavioral change in selected .NET version: code and binaries may behave differently at runtime without needing recompilation, but the new behavior might be undesirable and require updates.",
+      "label": "Behavioral change in selected .NET version",
+      "severity": "Potential",
+      "effort": 1
+    },
+    "LegacyConfiguration": {
+      "id": "LegacyConfiguration",
+      "isFeature": false,
+      "description": "Legacy XML-based configuration system (app.config/web.config) that has been replaced by a more flexible configuration model in .NET Core. The old system was rigid and XML-based. Migrate to Microsoft.Extensions.Configuration with JSON/environment variables; use System.Configuration.ConfigurationManager NuGet package as interim bridge if needed.",
+      "label": "Legacy Configuration System",
+      "severity": "Mandatory",
+      "effort": 2,
+      "links": [
+        {
+          "title": "Configuration in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341702",
+          "isCustom": false
+        }
+      ]
+    },
+    "WinForms": {
+      "id": "WinForms",
+      "isFeature": false,
+      "description": "Windows Forms APIs for building Windows desktop applications with traditional Forms-based UI that are available in .NET on Windows. Enable Windows Desktop support: Option 1 (Recommended): Target net9.0-windows; Option 2: Add \u003CUseWindowsDesktop\u003Etrue\u003C/UseWindowsDesktop\u003E; Option 3 (Legacy): Use Microsoft.NET.Sdk.WindowsDesktop SDK.",
+      "label": "Windows Forms",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Windows Forms on .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341906",
+          "isCustom": false
+        }
+      ]
+    },
+    "Wpf": {
+      "id": "Wpf",
+      "isFeature": false,
+      "description": "WPF APIs for building Windows desktop applications with XAML-based UI that are available in .NET on Windows. WPF provides rich desktop UI capabilities with data binding and styling. Enable Windows Desktop support: Option 1 (Recommended): Target net9.0-windows; Option 2: Add \u003CUseWindowsDesktop\u003Etrue\u003C/UseWindowsDesktop\u003E.",
+      "label": "WPF (Windows Presentation Foundation)",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "WPF on .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2342008",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

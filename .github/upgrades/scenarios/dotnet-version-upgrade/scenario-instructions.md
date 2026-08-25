@@ -1,0 +1,21 @@
+# .NET Version Upgrade (dotnet-version-upgrade)
+
+## Preferences
+- **Flow Mode**: Automatic
+- **Target Framework**: net10.0 (suggested LTS)
+
+## Source Control
+- **Source Branch**: develop
+- **Working Branch**: upgrade-dotnet-10
+- **Commit Strategy**: After Each Task
+- **Branch Sync**: Auto (Merge)
+
+## Notes
+- User requested: "Upgrade to a newer version of .NET" — confirmed and proceeding with defaults above.
+- This file was created during scenario initialization.
+
+## Upgrade Options
+- **Upgrade Strategy**: sdk-style-conversion-then-migrate
+- **Target Framework**: net10.0-windows
+- **Use Windows Desktop**: true
+- **Working Branch**: upgrade-dotnet-10
